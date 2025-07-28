@@ -18,6 +18,12 @@ This project presents an integrated AI pipeline that analyzes traffic scene imag
 
 ---
 
+## 🎥 Demo Video
+
+https://github.com/user-attachments/assets/9f1c751f-0d08-4a92-9610-a52a5f74f1c9
+
+---
+
 ## 📌 Features
 
 - 🔍 **License Plate Detection** using YOLOv8.
@@ -39,30 +45,55 @@ This project presents an integrated AI pipeline that analyzes traffic scene imag
 
 ---
 
-📁 Folder Structure
+## 🚀 Usage
+Prepare input images
 
-├── data/
-│   └── test/images/              # Input traffic images
+Place your traffic scene images inside the data/test/images/ folder.
 
-├── weights/
-│   └── best.pt                   # Trained YOLOv8 model weights
+Run the notebook
 
-├── notebook.ipynb                # Main executable notebook
+Open and run notebook.ipynb in Kaggle, Google Colab, or your local Jupyter environment.
 
-├── output/
-│   └── results.json              # Final structured JSON outputs
+Pipeline Stages
 
-└── README.md                     # Project documentation
+🔧 Load YOLOv8 model and OCR engine
+
+🖼️ Read and visualize a sample of 15 images
+
+🏷️ Detect license plates in each image
+
+🔡 Run OCR to extract license plate text
+
+📜 Use a VLM to generate a scene caption
+
+🧾 Output a consolidated JSON report
 
 
 ---
 
-## 🛠️ Installation
+## 🎯 Applications
+🚗 Smart Traffic Monitoring
 
-**Clone the repository**
+🛑 Automated Violation Detection
 
-```bash
-git clone https://github.com/your-username/traffic-scene-analysis.git
-cd traffic-scene-analysis
+🏙️ Urban Surveillance Systems
 
+🚓 Law Enforcement Tools
 
+---
+
+## 📈 Future Improvements
+Integrate real-time video stream input.
+
+Add support for multilingual OCR.
+
+Improve plate formatting and post-processing.
+
+Integrate map or GPS metadata for tracking.
+
+---
+
+## 👤 Author
+Developed by Israa Mohamed Gaber
+🔗 LinkedIn: https://www.linkedin.com/in/israamohamedgaber/
+📧 Email: mohamedisraa23@gmail.com
