@@ -39,9 +39,60 @@ https://github.com/user-attachments/assets/9f1c751f-0d08-4a92-9610-a52a5f74f1c9
 - 📦 **Output** is structured as a JSON combining all insights.
 
 ---
+
+## 🧠 Technologies Used
+
+| Component              | Model/Library       |
+|------------------------|---------------------|
+| Object Detection       | YOLOv8 (Ultralytics)|
+| OCR (Text Recognition) | EasyOCR , PaddleOCR  |
+| Vision-Language Model  | Qwen-VL, LLaVA, blip2-opt-2.7b or similar |
+| Visualization          | OpenCV, Matplotlib  |
+| Programming Language   | Python              |
+
+---
+
+## 🚀 Usage
+Prepare input images
+
+Place your traffic scene images inside the data/test/images/ folder.
+
+Run the notebook
+
+Open and run notebook.ipynb in Kaggle, Google Colab, or your local Jupyter environment.
+
+Pipeline Stages
+
+🔧 Load YOLOv8 model and OCR engine
+
+🖼️ Read and visualize a sample of 15 images
+
+🏷️ Detect license plates in each image
+
+🔡 Run OCR to extract license plate text
+
+📜 Use a VLM to generate a scene caption
+
+🧾 Output a consolidated JSON report
+
+
+---
+
+## 🎯 Applications
+🚗 Smart Traffic Monitoring
+
+🛑 Automated Violation Detection
+
+🏙️ Urban Surveillance Systems
+
+🚓 Law Enforcement Tools
+
+---
+
 ## 📁 Project Folder Structure
 
 Smart-Traffic-Vision/
+
 ├── README.md                       # Project documentation
 
 ├── yolo11n.pt                      # Custom-trained YOLOv8 model
@@ -106,55 +157,6 @@ Smart-Traffic-Vision/
 
 │   └── screenshot1.png
 
-
----
-
-## 🧠 Technologies Used
-
-| Component              | Model/Library       |
-|------------------------|---------------------|
-| Object Detection       | YOLOv8 (Ultralytics)|
-| OCR (Text Recognition) | EasyOCR , PaddleOCR  |
-| Vision-Language Model  | Qwen-VL, LLaVA, blip2-opt-2.7b or similar |
-| Visualization          | OpenCV, Matplotlib  |
-| Programming Language   | Python              |
-
----
-
-## 🚀 Usage
-Prepare input images
-
-Place your traffic scene images inside the data/test/images/ folder.
-
-Run the notebook
-
-Open and run notebook.ipynb in Kaggle, Google Colab, or your local Jupyter environment.
-
-Pipeline Stages
-
-🔧 Load YOLOv8 model and OCR engine
-
-🖼️ Read and visualize a sample of 15 images
-
-🏷️ Detect license plates in each image
-
-🔡 Run OCR to extract license plate text
-
-📜 Use a VLM to generate a scene caption
-
-🧾 Output a consolidated JSON report
-
-
----
-
-## 🎯 Applications
-🚗 Smart Traffic Monitoring
-
-🛑 Automated Violation Detection
-
-🏙️ Urban Surveillance Systems
-
-🚓 Law Enforcement Tools
 
 ---
 
