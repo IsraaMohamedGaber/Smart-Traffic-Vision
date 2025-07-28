@@ -43,36 +43,67 @@ https://github.com/user-attachments/assets/9f1c751f-0d08-4a92-9610-a52a5f74f1c9
 
 Smart-Traffic-Vision/
 ├── README.md                       # Project documentation
+
 ├── yolo11n.pt                      # Custom-trained YOLOv8 model
+
 ├── yolov8n.pt                      # Pretrained YOLOv8 model
+
 ├── data (1).yaml                   # YOLO dataset config
+
 │
+
 ├── data/                           # data (Train ,test and valid)
+
 │
+
 ├── notebooks/                      # Jupyter notebooks for testing and development
+
 │   └── *.ipynb
+
 │
+
 ├── images for test/               # Images used for testing the pipeline
+
 │   ├── image1.jpg
+
 │   └── image2.jpg
+
 │
+
 ├── runs/                           # YOLO training runs (Ultralytics output)
+
 │   └── detect/
+
 │       └── train/
+
 │           ├── weights/
+
 │           │   └── best.pt
+
 │           └── ...
+
 │
+
 ├── runs_backup/                    # Backup of training runs
+
 │   └── detect/
+
 │       └── train/
+
 │           └── ...
+
 │
+
 ├── sample output of json/          # Example structured JSON results
+
 │   └── output1.json
+
 │
+
 ├── Screenshot and vedio/           # Demo assets
+
 │   ├── demo_video.mp4
+
 │   └── screenshot1.png
 
 
