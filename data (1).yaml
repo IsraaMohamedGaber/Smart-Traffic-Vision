@@ -1,0 +1,5 @@
+train: /kaggle/input/license-plate-yolo-and-paddle-ocr/data/train/images
+val: /kaggle/input/license-plate-yolo-and-paddle-ocr/data/valid/images
+test: /kaggle/input/license-plate-yolo-and-paddle-ocr/data/test/images
+nc: 1
+names: ['licence']

@@ -1,0 +1,17 @@
+{
+  "scene_description": "a blue car is parked in the middle of a field",
+  "license_plates": [
+    {
+      "bbox": [
+        86,
+        31,
+        332,
+        247
+      ],
+      "plate_text": "HR26 42 5927",
+      "confidence": 0.5054576992988586,
+      "ocr_confidence": 0.7798085677858912
+    }
+  ],
+  "plate_count": 1
+}
