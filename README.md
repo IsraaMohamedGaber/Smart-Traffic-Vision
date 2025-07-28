@@ -39,6 +39,7 @@ https://github.com/user-attachments/assets/9f1c751f-0d08-4a92-9610-a52a5f74f1c9
 - 📦 **Output** is structured as a JSON combining all insights.
 
 ---
+## 📁 Project Folder Structure
 
 Smart-Traffic-Vision/
 ├── README.md                       # Project documentation
@@ -46,7 +47,7 @@ Smart-Traffic-Vision/
 ├── yolov8n.pt                      # Pretrained YOLOv8 model
 ├── data (1).yaml                   # YOLO dataset config
 │
-├── data/                           # Additional data (if any)
+├── data/                           # data (Train ,test and valid)
 │
 ├── notebooks/                      # Jupyter notebooks for testing and development
 │   └── *.ipynb
@@ -73,6 +74,7 @@ Smart-Traffic-Vision/
 ├── Screenshot and vedio/           # Demo assets
 │   ├── demo_video.mp4
 │   └── screenshot1.png
+
 
 ---
 
