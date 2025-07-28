@@ -24,6 +24,13 @@ https://github.com/user-attachments/assets/9f1c751f-0d08-4a92-9610-a52a5f74f1c9
 
 ---
 
+🖼️ Sample Output
+
+<img width="1911" height="859" alt="Screenshot (488)" src="https://github.com/user-attachments/assets/0a1d309b-2ce2-4a7b-b258-6a960f7c53b4" />
+<img width="1920" height="859" alt="Screenshot (489)" src="https://github.com/user-attachments/assets/db1ec644-aba2-401a-9ddb-b2ddc0be60c7" />
+
+---
+
 ## 📌 Features
 
 - 🔍 **License Plate Detection** using YOLOv8.
